@@ -59,13 +59,6 @@ section {
   margin: -5px auto 2rem;
 }
 
-
-
-
-
-
-
-
 /* hamburger menu button */
 #hamburger {
   position: fixed;
@@ -128,9 +121,11 @@ li>a:hover{
 
 .nav-items{
   padding-left: 1rem;
-  margin-top: 10rem;
 }
 
+nav> div{
+  padding-top: 10rem;
+}
 
 #social img {
   height: 25px;
@@ -152,7 +147,7 @@ li>a:hover{
   color: var(--mainGrey);
   display: flex;
   align-items: center;
-  height: 80vh;
+  height: 100vh;
   width: 100vw;
   padding: 0 1rem;
 }
@@ -440,10 +435,28 @@ text-align: left;
 
 /*media query for tablet*/
 @media only screen and (min-width: 608px) {
-  #hamburger {
+  #hamburger, .hr-nav , #close-icon, #social{
     display: none;
   }
-  
+
+  nav{
+    overflow: visible;
+  }
+
+  nav>div{
+    padding-top: unset;
+  }
+
+  .nav-items{
+    display: flex;
+    justify-content: right;
+    margin: -5rem 1rem 0 0;
+  }
+
+  li>a:hover{
+    border-bottom: 1px solid var(--mainBlue);
+  }
+
   #intro {
     width: 60vw;
     margin-left: 7rem;
@@ -511,9 +524,12 @@ text-align: left;
 }
 
 @media only screen and (min-width: 980px) {
+  #home{
+    overflow: hidden; /**to remove the overflow the animation rotation brings*/
+  }
+
   #intro-wrap {
     justify-content: center;
-    overflow: hidden; /**to remove the overflow the animation rotation brings*/
     gap: 2rem;
   }
 
@@ -563,9 +579,10 @@ text-align: left;
     width: 40vw;
   }
 
-  #description, #about p, #work p, #contacts p, footer p, footer a {
+  #description, #about p, #contacts p, footer p, footer a {
     font-size: 15px;
   }
+
   .services{
     width: 25vw;
   }
