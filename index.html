@@ -8,8 +8,7 @@
         
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <link rel="icon" href="favicon.ico" type="image/x-icon">   
-        <!-- font-awesome -->
-        <link rel="stylesheet" href="./fontawesome-free-5.7.2-web/css/all.css" />
+
         <!--Bootstrap link-->
         <link rel="stylesheet"
             href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -21,53 +20,40 @@
 
     <body>
         <section id="home">
-             <!--Logo-->
-            <div>
-                <img src="./assets/Logo.png" alt="logo" id="logo">
-            </div>
-
+            <!--Logo-->
+            <img src="./assets/Logo.png" alt="logo" id="logo">
             <!-- nav button (hamburger)-->
-            <div class="hamburger" id="hamburger">
-                <img src="./assets/hamburger-menu.svg" id="hamburger" style="height: 40px; width:35px;">
-            </div>
-        
-            <!-- nav -->
-            <nav class="navbar" id="navbar">
-                <div class="navbar-header">
-                    <span class="nav-close" id="nav-close">
-                        <img src="./assets/close.png" style="height:20px;" id="close-icon"/>
-                    </span>
-                </div>
-
+            <img src="./assets/hamburger-menu.svg" id="hamburger" style="height: 40px; width:35px;">
+            
+            <nav>
+               <div>
+                <img src="./assets/close.png" style="height:20px;" id="close-icon"/>
+               
                 <ul class="nav-items">
-                    <li class="navLink">
-                        <a href="#">Home</a></li>
+                    <li><a href="#" class="nav-link">Home</a></li>
                     <div class="hr-nav"></div>
 
-                    <li class="navLink">
-                        <a href="#about">About</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
                     <div class="hr-nav"></div>
 
-                    <li class="navLink">
-                        <a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#Portfolio" class="nav-link">Portfolio</a></li>
                     <div class="hr-nav"></div>
 
-                    <li class="navLink">
-                        <a href="#work">Services</a></li>
+                    <li><a href="#work" class="nav-link">Services</a></li>
                     <div class="hr-nav"></div>
     
-                    <li class="navLink">
-                        <a href="#contacts">Contact</a></li>
+                    <li><a href="#contacts" class="nav-link">Contact</a></li>
                     <div class="hr-nav"></div>   
                 </ul>
 
-                <!--Social media icon-->
-                <div id="social" class="ml-4">
+                <!--Social media icons-->
+                <div id="social">
                     <a href="https://fb.me/ceeplusng"><img src="./assets/contacts-icons/facebook1.svg"></a>
                     <a href="https://twitter.com/ceeplusng"><img src="./assets/contacts-icons/twitter1.svg"></a>
                     <a href="https://wa.me/2349025976599"><img src="./assets/contacts-icons/whatsapp1.svg"></a>
                     <a href="https://www.instagram.com/ceeplusng/"><img src="./assets/contacts-icons/instagram1.svg"></a>
                 </div>
+            </div>
             </nav>
     
             <div id="intro-wrap">
@@ -83,7 +69,7 @@
                     </div>
                 </div>
                 <div>
-                <img src="Services icons\about.png" alt="CeePlus design" id="home-photo"/>
+                <img src="./assets/work-icons/about.png" alt="CeePlus design" id="home-photo"/>
             </div>
             </div>
         </section>
@@ -126,8 +112,10 @@
             
             <div class="wrapper">
                 <div class="box" id="one">
-                    <img src="Portfolio icons\C+.png"/>
-                    <a href="Logo.html"><span class="label">Logo Designs.</span></a>
+                    
+                    <img src="./assets/Portfolio icons/C+.png"/>
+                    
+                    <a href="./Portfolio-html/Logo.html"><span class="label">Logo Designs.</span></a>
                 </div>
 
                 <div class="box" id="two">
@@ -368,7 +356,7 @@
             <div class="container">
                 <div class="row pt-5">
                     <div class="col-lg-4 first mt-4">
-                        <img src="contacts icons\Name.png" class="logo-name mb-3">
+                        <img src="./assets/contacts-icons/Name.png" class="logo-name mb-3">
                         <p class="mb-5">Part of our job is to be able to relate what a client asks for and what 
                             the client actually needs for better representation and outlook.</p>
                     </div>

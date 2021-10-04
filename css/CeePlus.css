@@ -59,60 +59,52 @@ section {
   margin: -5px auto 2rem;
 }
 
+
+
+
+
+
+
+
 /* hamburger menu button */
-.hamburger {
+#hamburger {
   position: fixed;
   top: 0;
   right: 0;
   z-index: 1;
-  margin: 1rem 1.3rem;
-  cursor: pointer;
-  padding: 10px 20px 10px 1px;
+  margin: 1.5rem;
+  cursor: pointer; 
 }
 
-
-/****navbar */
-.navbar {
+.show-links {
   position: fixed;
+  z-index: 9999;
+  height: 100vh;
+  width: 70vw;
   top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: #0f0f0f;
-  z-index: 2;
-  padding-top: 1rem;
-  padding-left: 2rem;
-  transition: var(--mainTransition);
-  transform: translate(-100%);
+  background-color: #0f0f0f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ /* transition: var(--mainTransition);
+  transform: translateY(100);**/
 }
 
-.nav-close {
-  cursor: pointer;
+nav{
+  overflow: hidden;
+  height: 0;
+  position: relative;
 }
 
-#close-icon {
-  display: block;
-  margin: 0 auto 0 200px;
-}
-
-.nav-items {
+li {
   list-style-type: none;
-  display: block;
-  margin-right: 120px;
-}
-
-.hr-nav{
-  border-bottom: 1px solid #17c8ff;
-  display: block;
-  width: 100%;
 }
 
 li>a {
-  display: block;
-  font-size: 18px;
   color: var(--mainWhite);
   transition: var(--mainTransition);
-  margin: 5px 5px 5px 15px;
+  font-size: 15px;
+  font-family: var(--mainFont);
 }
 
 li>a:hover{
@@ -121,23 +113,30 @@ li>a:hover{
   text-decoration: none;
 }
 
-.showNav {
-  transform: translateX(0);
+#close-icon {
+ position: absolute;
+ top: 2rem;
+ right: 2rem;
+ cursor: pointer;
 }
 
-@media screen and (min-width: 768px) {
-  .navbar {
-    width: 40vw;
-    max-width: 20rem;
-  }
+.hr-nav{
+  border-bottom: 1px solid var(--mainBlue);
+  display: block;
+  width: 65%;
 }
+
+.nav-items{
+  padding-left: 1rem;
+  margin-top: 10rem;
+}
+
 
 #social img {
-  height: 30px;
-  width: 30px;
-  margin: 5px;
+  height: 25px;
+  width: 25px;
+  margin: 9rem 0.3rem 0;
 }
-/*nav styles end*/
 
 #logo {
   width: 50px;
@@ -297,7 +296,7 @@ button>a:hover{
 #Portfolio img {
   right: 0px;
   position: absolute;
-  margin: 5px;
+  margin: 15px;
   width: 30px;
   height: 30px;
 }
@@ -320,7 +319,6 @@ button>a:hover{
 #work {
   margin: 5rem 0;
 }
-
 
 .services {
   background-color: #0f0f0f;
@@ -444,10 +442,6 @@ text-align: left;
 @media only screen and (min-width: 608px) {
   #hamburger {
     display: none;
-  }
-
-  .nav-items> .navLink {
-    display: block ;
   }
   
   #intro {

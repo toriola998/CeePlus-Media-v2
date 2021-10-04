@@ -1,26 +1,25 @@
-const navBtn = document.getElementById("hamburger");
-const navbar = document.getElementById("navbar");
-const navClose = document.getElementById("nav-close");
+const menu = document.querySelector('#hamburger');
+const links = document.querySelector('nav');
+const closeIcon = document.querySelector('#close-icon');
 
-navBtn.addEventListener("click", () => {
-  navbar.classList.add("showNav");
+//Toggle to menu hamburger
+menu.addEventListener('click', function(){
+links.classList.toggle('show-links');
 });
 
-navClose.addEventListener("click", () => {
-  navbar.classList.remove("showNav");
+//Close the side bar once the close icon gets clicked
+closeIcon.addEventListener('click', function(){
+    links.classList.remove('show-links');
 });
 
-/*make navigation close as the navlink is clicked */
-let links = document.querySelectorAll('.navLink');
+let navLinks = document.querySelectorAll('.nav-link');
 //event listener for each links
-links.forEach(link => {  
+navLinks.forEach(link => {  
   link.addEventListener('click', () => {
-  navbar.classList.remove("showNav");
+    links.classList.remove('show-links');
   }); 
 });
- 
 
-/**Update the copyright year automatically*/
+//Update the copyright year automatically
 const date = document.getElementById("date");
 date.innerHTML = new Date().getFullYear();
-
