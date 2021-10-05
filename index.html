@@ -82,10 +82,10 @@
             
             <div class="about-page">
                 <div class="flex-box">
-                    
-                    <img src="./assets/about-photo.jpg" class="about-photo" alt="about-ceeplus"/>
-                    
-                    <div class="paragraph-div">
+                    <div class="gs_reveal gs_reveal_fromLeft">
+                        <img src="./assets/about-photo.jpg" class="about-photo" alt="about-ceeplus" />
+                    </div>
+                    <div class="paragraph-div gs_reveal gs_reveal_fromRight">
                         <p>CeePlus Media is a Nigerian based design agency that is strongly devoted to 
                         creativity. We have collaborative qualities used in creating effective designs; 
                         designs that convey desired idea of your business or brand.</p>
@@ -106,7 +106,7 @@
         <!--about page ends-->
 
         <!--Portfolio section starts-->
-        <section id="Portfolio">
+        <section id="Portfolio"  class="skewElem">
             <h2 class="text-center">Portfolio</h2>
             <div class="hr-line"></div>
             
@@ -330,7 +330,7 @@
             </div>
 
             <div class="wrap">
-                <div class="in-touch1">
+                <div class="in-touch1 gs_reveal gs_reveal_fromLeft">
                     <div class="imago">
                         <img class="text-center" src="./assets/contacts-icons/email.svg"/>
                     </div>
@@ -340,7 +340,7 @@
                     </p>
                 </div>
 
-                <div class="in-touch2">
+                <div class="in-touch2 gs_reveal gs_reveal_fromRight" >
                     <div class="imago ">
                         <img src="./assets/contacts-icons/phone-call.svg"/>
                     </div>
@@ -397,7 +397,11 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" 
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" 
         crossorigin="anonymous"></script>
-    
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
+        
+        <script src="./js/gsap.js"></script>
         <script src="./js/index.js"></script>
     </body>
 </html>
