@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
 .gs_reveal {
   opacity: 0;
@@ -12,7 +12,7 @@
   --mainWhite: #fff;
   --mainGrey: #e4e4e4;
   --mainTransition: all 0.3s linear;
-  --mainFont : "Poppins", sans-serif;
+  --mainFont: "Poppins", sans-serif;
   --mainBlue: #17c8ff;
 }
 
@@ -32,15 +32,14 @@ a:active {
   text-decoration: none;
 }
 
- a:visited {
+a:visited {
   color: var(--mainWhite);
 }
 
 p {
   font-family: var(--mainFont);
-  
 }
- a:hover {
+a:hover {
   color: white;
 }
 
@@ -48,7 +47,7 @@ p {
   text-align: center;
 }
 
-h2{
+h2 {
   color: var(--mainWhite);
 }
 
@@ -72,7 +71,7 @@ section {
   right: 0;
   z-index: 1;
   margin: 1.5rem;
-  cursor: pointer; 
+  cursor: pointer;
 }
 
 .show-links {
@@ -90,7 +89,7 @@ section {
   transition: transform 1s ease;*/
 }
 
-nav{
+nav {
   overflow: hidden;
   height: 0;
   position: relative;
@@ -100,37 +99,37 @@ li {
   list-style-type: none;
 }
 
-li>a {
+li > a {
   color: var(--mainWhite);
   transition: var(--mainTransition);
   font-size: 15px;
   font-family: var(--mainFont);
 }
 
-li>a:hover{
+li > a:hover {
   color: var(--mainDark);
   padding-left: 0.5rem;
   text-decoration: none;
 }
 
 #close-icon {
- position: absolute;
- top: 2rem;
- right: 2rem;
- cursor: pointer;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  cursor: pointer;
 }
 
-.hr-nav{
+.hr-nav {
   border-bottom: 1px solid var(--mainBlue);
   display: block;
   width: 65%;
 }
 
-.nav-items{
+.nav-items {
   padding-left: 1rem;
 }
 
-nav> div{
+nav > div {
   padding-top: 10rem;
 }
 
@@ -183,7 +182,7 @@ button {
   margin-top: 0.8rem;
 }
 
-button>a:hover{
+button > a:hover {
   text-decoration: none;
 }
 
@@ -191,10 +190,10 @@ button>a:hover{
   padding: 10px 40px;
   background-color: #17c8ff;
   border: none;
-  margin-right: 0.7rem ;
+  margin-right: 0.7rem;
 }
 
-#learn>a {
+#learn > a {
   color: #000;
 }
 
@@ -204,7 +203,7 @@ button>a:hover{
   border: 1px solid var(--mainBlue);
 }
 
-#discuss>a{
+#discuss > a {
   color: var(--mainBlue);
 }
 
@@ -213,19 +212,19 @@ button>a:hover{
 }
 
 /*about us section*/
-#about p{
+#about p {
   color: var(--mainGrey);
   background-color: #000;
   font-size: 13px;
-  line-height: 2.0;
+  line-height: 2;
   word-spacing: 1px;
   margin: unset;
   padding-top: 1rem;
 }
 
 .about-photo {
-   width: 80vw;
-   height: 300px;
+  width: 80vw;
+  height: 300px;
 }
 
 .about-page {
@@ -234,63 +233,72 @@ button>a:hover{
 
 /*Portfolio style*/
 #Portfolio {
-   margin: 4rem 0;
+  margin: 4rem 0;
 }
 
 .box {
   height: 330px;
   position: relative;
   width: 80vw;
-  margin: 0 auto 2rem;  
+  margin: 0 auto 2rem;
 }
 
 #one {
-  background-color: #8EC5FC;
-  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
 }
 
 #two {
-  background-color: #FFDEE9;
-  background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+  background-color: #ffdee9;
+  background-image: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%);
 }
 
 #three {
-  background-color: #A9C9FF;
-  background-image: linear-gradient(180deg, #A9C9FF 0%, #FFBBEC 100%);
+  background-color: #a9c9ff;
+  background-image: linear-gradient(180deg, #a9c9ff 0%, #ffbbec 100%);
 }
 
 #four {
-  background-color: #FFDEE9;
-  background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+  background-color: #ffdee9;
+  background-image: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%);
 }
 
 #five {
-  background-color: #FAACA8;
-  background-image: linear-gradient(19deg, #FAACA8 0%, #DDD6F3 100%);
+  background-color: #faaca8;
+  background-image: linear-gradient(19deg, #faaca8 0%, #ddd6f3 100%);
 }
 
 #six {
-  background-color: #D9AFD9;
-  background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+  background-color: #d9afd9;
+  background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
 }
 
 #seven {
-  background: rgb(255,255,255);
-  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(200,162,200,1) 68%);
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(200, 162, 200, 1) 68%
+  );
 }
 
 #eight {
-  background-color: #8EC5FC;
-  background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
 }
 
+#Portfolio .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#Portfolio .box a {
+  padding: 2rem;
+}
 .label {
   font-family: var(--mainFont);
   color: Black;
   text-decoration: none;
-  position: absolute;
-  bottom: 30px;
-  padding: 40px;
   font-weight: bold;
   font-size: 30px;
 }
@@ -298,6 +306,7 @@ button>a:hover{
 #Portfolio img {
   right: 0px;
   position: absolute;
+  top: 0.5rem;
   margin: 15px;
   width: 30px;
   height: 30px;
@@ -306,14 +315,14 @@ button>a:hover{
 /*Carousel/Slider*/
 @media screen and (min-width: 426px) {
   #small {
-  display: none;
+    display: none;
   }
 }
 
 @media screen and (max-width: 425px) {
   #slider {
     display: none;
-    }
+  }
 }
 /*Carousel/Slider ends*/
 
@@ -324,17 +333,17 @@ button>a:hover{
 
 .services {
   background-color: #0f0f0f;
-  border-radius:10px; 
+  border-radius: 10px;
   height: 250px;
   color: var(--mainWhite);
   padding: 1rem;
 }
 
 #work img {
- display: block;
- margin: 0 auto;
- height: 40px;
- width: 40px;
+  display: block;
+  margin: 0 auto;
+  height: 40px;
+  width: 40px;
 }
 
 .work-image {
@@ -348,11 +357,11 @@ button>a:hover{
 }
 
 #work p {
-font-weight: 200;
-padding-top: 10px;
-font-size: 13px;
-line-height: 1.8;
-word-spacing: 2px;
+  font-weight: 200;
+  padding-top: 10px;
+  font-size: 13px;
+  line-height: 1.8;
+  word-spacing: 2px;
 }
 
 #contacts {
@@ -375,12 +384,12 @@ word-spacing: 2px;
   height: 70px;
   width: 70px;
   border-radius: 70%;
-  border: 1px solid var(--mainBlue); 
+  border: 1px solid var(--mainBlue);
   display: block;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
-#contacts{
+#contacts {
   padding-bottom: 4rem;
 }
 
@@ -403,7 +412,7 @@ footer {
   font-weight: 300;
   margin: 0px;
   font-family: var(--mainFont);
-  font-size: 13px
+  font-size: 13px;
 }
 
 .foot {
@@ -411,11 +420,11 @@ footer {
   width: 20px;
 }
 
-.first p{
-text-align: left;
+.first p {
+  text-align: left;
 }
 
-.logo-name{
+.logo-name {
   height: 30px;
   width: 100px;
 }
@@ -427,42 +436,46 @@ text-align: left;
 }
 
 @media only screen and (min-width: 990px) {
- .second, .third {
-   margin-top: 20px;
- }
+  .second,
+  .third {
+    margin-top: 20px;
+  }
 
- footer .container{
-   padding-left: 100px;
-   font-size: 17px;
- }
+  footer .container {
+    padding-left: 100px;
+    font-size: 17px;
+  }
 
- .second{
-   padding-left: 120px;
- }
+  .second {
+    padding-left: 120px;
+  }
 }
 /*footer styles end*/
 
 /*media query for tablet*/
 @media only screen and (min-width: 608px) {
-  #hamburger, .hr-nav , #close-icon, #social{
+  #hamburger,
+  .hr-nav,
+  #close-icon,
+  #social {
     display: none;
   }
 
-  nav{
+  nav {
     overflow: visible;
   }
 
-  nav>div{
+  nav > div {
     padding-top: unset;
   }
 
-  .nav-items{
+  .nav-items {
     display: flex;
     justify-content: right;
     margin: -5rem 4rem 0 0;
   }
 
-  li>a:hover{
+  li > a:hover {
     border-bottom: 1px solid var(--mainBlue);
   }
 
@@ -475,11 +488,15 @@ text-align: left;
     font-size: 70px;
   }
 
-  #description, #work p, #contacts p, footer p, footer a {
+  #description,
+  #work p,
+  #contacts p,
+  footer p,
+  footer a {
     font-size: 14px;
   }
 
-  .wrapper{
+  .wrapper {
     display: grid;
     grid-template-columns: auto auto;
     justify-content: center;
@@ -503,7 +520,6 @@ text-align: left;
   .about-photo {
     width: 40vw;
     height: inherit;
-
   }
 
   #about p {
@@ -512,10 +528,10 @@ text-align: left;
 
   .services {
     width: 37vw;
-    height: auto; 
+    height: auto;
   }
-  
-  #work{
+
+  #work {
     padding-left: 25px;
   }
 
@@ -526,14 +542,13 @@ text-align: left;
     margin-top: 3rem;
   }
 
-  .in-touch1{
+  .in-touch1 {
     margin: unset;
   }
-
 }
 
 @media only screen and (min-width: 980px) {
-  #home{
+  #home {
     overflow: hidden; /**to remove the overflow the animation rotation brings*/
   }
 
@@ -555,7 +570,7 @@ text-align: left;
     margin: 30px auto;
   }
 
-  .wrapper{
+  .wrapper {
     grid-template-columns: auto auto auto;
     grid-gap: 30px;
   }
@@ -566,7 +581,7 @@ text-align: left;
     height: 500px;
     animation: rotation 30s infinite linear;
   }
-  
+
   @keyframes rotation {
     from {
       transform: rotate(0deg);
@@ -577,7 +592,7 @@ text-align: left;
   }
 
   .box {
-    width: 25vw
+    width: 25vw;
   }
 
   .paragraph-div {
@@ -588,11 +603,15 @@ text-align: left;
     width: 40vw;
   }
 
-  #description, #about p, #contacts p, footer p, footer a {
+  #description,
+  #about p,
+  #contacts p,
+  footer p,
+  footer a {
     font-size: 15px;
   }
 
-  .services{
+  .services {
     width: 25vw;
   }
 }
@@ -606,9 +625,9 @@ text-align: left;
   #intro {
     width: 35vw;
   }
-  
+
   .box {
-    width: 20vw
+    width: 20vw;
   }
 
   .paragraph-div {
@@ -619,26 +638,7 @@ text-align: left;
     width: 30vw;
   }
 
-  .services{
+  .services {
     width: 22vw;
   }
-
- }
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
