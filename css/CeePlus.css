@@ -292,9 +292,11 @@ button > a:hover {
   align-items: center;
   justify-content: center;
 }
+
 #Portfolio .box a {
-  padding: 2rem;
+  padding: 12rem 2rem 2rem;
 }
+
 .label {
   font-family: var(--mainFont);
   color: Black;
