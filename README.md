@@ -1,10 +1,16 @@
-# Universities
+# CeePlus Media v2
 <img src="./assets/screenshot.png" alt="project">
-This website helps to find the names, websites and countries of the universities in the world.
+This is the second iteration for CeePlus Media, a graphics design agency based in Lagos.
+First-iteration: https://ceeplusng.com/. 
 
-The data was fetched from https://github.com/Hipo/university-domains-list-api.
+This website was built with HTML, CSS, Javascript, Bootstrap and GSAP scroll animations for the 'about'
+and the 'contact' page.
 
+Home: The animation on the home page is pure CSS.
+About: GSAP Scroll Trigger Animation.
+Portfolio: GSAP skew Scroll Trigger animation.
+Carousel: Bootstrap CSS.
+Contact: GSAP Scroll Trigger Animation.
 
-It was originally hosted on netlify, but due to CORS policy, the api request was blocked (content was 'http' instead of 'https').
+Live url: ceeplus-media-v2.netlify.app/
 
-Hence, this website is currently served on http://localhost:5000/.
