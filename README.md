@@ -7,15 +7,15 @@ First-iteration: https://ceeplusng.com/.
 This website was built with HTML, CSS, Javascript, Bootstrap and GSAP scroll animations for the 'about'
 and the 'contact' page.
 
-Home: The animation on the home page is pure CSS.
+    1.Home: The animation on the home page is pure CSS.
 
-About: GSAP Scroll Trigger Animation.
+    2.About: GSAP Scroll Trigger Animation.
 
-Portfolio: GSAP skew Scroll Trigger animation.
+    3.Portfolio: GSAP skew Scroll Trigger animation.
 
-Carousel: Bootstrap CSS.
+    4. Carousel: Bootstrap CSS.
 
-Contact: GSAP Scroll Trigger Animation.
+    5. Contact: GSAP Scroll Trigger Animation.
 
 Live url: https://ceeplus-media-v2.netlify.app/
 
