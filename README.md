@@ -12,5 +12,5 @@ Portfolio: GSAP skew Scroll Trigger animation.
 Carousel: Bootstrap CSS.
 Contact: GSAP Scroll Trigger Animation.
 
-Live url: ceeplus-media-v2.netlify.app/
+Live url: https://ceeplus-media-v2.netlify.app/
 
