@@ -24,3 +24,11 @@ navLinks.forEach(link => {
 const date = document.getElementById("date");
 date.innerHTML = new Date().getFullYear();
 
+//add loader to page
+const mainContent =  document.getElementById('ceeplus-ng');
+const pageloader = document.getElementById('loader')
+
+setTimeout( () => {
+  mainContent.style.display = 'block';
+  pageloader.style.display = 'none'
+}, 5000)
