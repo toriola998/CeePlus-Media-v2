@@ -165,7 +165,7 @@ nav > div {
   color: var(--mainGrey);
   display: flex;
   align-items: center;
-  height: 100vh;
+  height: 80vh;
   width: 100vw;
   padding: 0 1rem;
 }
@@ -251,7 +251,7 @@ button > a:hover {
 .box {
   height: 330px;
   position: relative;
-  width: 80vw;
+  width: 270px;
   margin: 0 auto 2rem;
 }
 
@@ -307,6 +307,7 @@ button > a:hover {
 
 #Portfolio .box a {
   padding: 12rem 2rem 2rem;
+  text-decoration: none;
 }
 
 .label {
@@ -348,7 +349,7 @@ button > a:hover {
 .services {
   background-color: #0f0f0f;
   border-radius: 10px;
-  height: 250px;
+  height: auto;
   color: var(--mainWhite);
   padding: 1rem;
 }
@@ -496,6 +497,7 @@ footer {
   #intro {
     width: 60vw;
     margin-left: 7rem;
+    height: 100vh;
   }
 
   h1 {
@@ -517,10 +519,6 @@ footer {
     grid-gap: 30px;
   }
 
-  .box {
-    width: 35vw;
-  }
-
   .flex-box {
     display: flex;
     justify-content: center;
@@ -538,11 +536,6 @@ footer {
 
   #about p {
     line-height: 1.7;
-  }
-
-  .services {
-    width: 37vw;
-    height: auto;
   }
 
   #work {
@@ -605,10 +598,6 @@ footer {
     }
   }
 
-  .box {
-    width: 25vw;
-  }
-
   .paragraph-div {
     width: 40vw;
   }
@@ -624,10 +613,6 @@ footer {
   footer a {
     font-size: 15px;
   }
-
-  .services {
-    width: 25vw;
-  }
 }
 
 /*general query for laptop*/
@@ -640,19 +625,11 @@ footer {
     width: 35vw;
   }
 
-  .box {
-    width: 20vw;
-  }
-
   .paragraph-div {
     width: 30vw;
   }
 
   .about-photo {
     width: 30vw;
-  }
-
-  .services {
-    width: 22vw;
   }
 }
