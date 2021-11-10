@@ -251,7 +251,7 @@ button > a:hover {
 .box {
   height: 330px;
   position: relative;
-  width: 270px;
+  width: 285px;
   margin: 0 auto 2rem;
 }
 
@@ -308,6 +308,7 @@ button > a:hover {
 #Portfolio .box a {
   padding: 12rem 2rem 2rem;
   text-decoration: none;
+  width: 220px;
 }
 
 .label {
@@ -321,8 +322,8 @@ button > a:hover {
 #Portfolio img {
   right: 0px;
   position: absolute;
-  top: 0.5rem;
-  margin: 15px;
+  top: 0;
+  margin: 12px;
   width: 30px;
   height: 30px;
 }
@@ -352,6 +353,7 @@ button > a:hover {
   height: auto;
   color: var(--mainWhite);
   padding: 1rem;
+  width: 285px;
 }
 
 #work img {
@@ -494,10 +496,13 @@ footer {
     border-bottom: 1px solid var(--mainBlue);
   }
 
+  #intro-wrap {
+    height: 100vh;
+  }
+
   #intro {
     width: 60vw;
     margin-left: 7rem;
-    height: 100vh;
   }
 
   h1 {
